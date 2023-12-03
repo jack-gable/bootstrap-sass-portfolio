@@ -1,0 +1,19 @@
+// source maps are files that tell browsers or other tools that consume css
+// how that css corresponds to the sass files from which it was generated.
+// they make it possible to see and even edit your sass files in browsers.
+@use "custom";
+
+@use "components/animations";
+@use "components/buttons";
+@use "components/mixins";
+@use "components/typography";
+
+@use "sections/navbar";
+@use "sections/intro-section";
+@use "sections/companies";
+@use "sections/services";
+@use "sections/testimonials";
+@use "sections/faq";
+@use "sections/portfolio";
+@use "sections/get-started";
+@use "sections/footer";
